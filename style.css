@@ -10,6 +10,8 @@ body {
     color: #fff;
 }
 
+/* ---------------------Header---part---of---website-------------------- */
+
 #header {
     display: flex;
     align-items: center;
@@ -62,4 +64,34 @@ body {
 
 #navbar li a:hover::after {
     width: 100%;
+}
+
+
+/* ---------------Main---part-------------- */
+
+#main {
+    background-image: url("./Images/Bg-img.png");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 100px;
+  }
+
+#main h1 {
+    font-size: 50px;
+    line-height: 1.3;
+    padding-bottom: 15px;
+}
+
+#main h1 span {
+    color: #ff4545;
+}
+
+#main h2 {
+    font-size: 30px;
 }
