@@ -95,3 +95,91 @@ body {
 #main h2 {
     font-size: 30px;
 }
+
+/* ---------------------About-Me-------------------- */
+
+.container {
+    padding: 10px 10%;
+}
+
+#about {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    border-radius: 15px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.about-col-2 p {
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 30px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff4545;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+    width: 60%;
+}
+
+.tab-contents {
+    line-height: 1.4;
+    display: none;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span {
+    color: #b24949;
+    font-size: 15px;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}

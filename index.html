@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,5 +26,83 @@
         <h1>Hi There,<br>I'm <span>Sahad Mahaboob</span></h1>
         <h2>From Malappuram, Kerala</h2>
     </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/Profile.png" alt="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dedicated professional with a BTech Degree in Information Technology from Cochin University of Science And Technology(CUSAT). As a Self-learning Developer, I am fueled by a passion for technology and constantly strive to stay at the forefront of industry advancements.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C Programming, JavaScript, Python</li>
+                            <li><span>Frontend Development</span><br>HTML(5), CSS(3)</li>
+                            <li><span>Frameworks and Libraries</span><br>Bootstrap, jQuery</li>
+                            <li><span>Cloud Hosting</span><br>GitHub Pages, Vercel</li>
+                            <li><span>Software and Tools</span><br>Visual Studio Code, Git, Pycharm, Linux</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology - 2022</span><br>Cochin University of Science And Technology(CUSAT)</li>
+                            <li><span>Higher Secondary School - 2017</span><br>GHSS Tirurangadi, Kerala</li>
+                            <li><span>High School - 2015</span><br>Khuthbuzzaman English Medium H.S, Chemmad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>English</span><br><i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                            </li>
+                            <li><span>Malayalam</span><br><i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i></li>
+                            <li><span>Hindi</span><br><i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ffffff1b' ></i>
+                                <i class='bx bxs-circle' style='color:#ffffff1b' ></i>
+                                <i class='bx bxs-circle' style='color:#ffffff1b' ></i></li>
+                            <li><span>Tamil</span><br><i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ababab' ></i>
+                                <i class='bx bxs-circle' style='color:#ffffff1b' ></i>
+                                <i class='bx bxs-circle' style='color:#ffffff1b' ></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
 </body>
 </html>
