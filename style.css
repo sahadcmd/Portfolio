@@ -152,9 +152,12 @@ body {
 .tab-links {
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 600;
     cursor: pointer;
     position: relative;
+}
+
+p.tab-links {
+    font-weight: 600;
 }
 
 .tab-links::after {
