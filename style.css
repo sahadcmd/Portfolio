@@ -115,10 +115,17 @@ body {
 
 .about-col-1 {
     flex-basis: 35%;
+    border: 1px solid #ababab;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-col-1 img {
     border-radius: 15px;
+    width: 230px;
+    margin: 120px 100px;
 }
 
 .about-col-2 {
