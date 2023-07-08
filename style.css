@@ -276,7 +276,7 @@ p.tab-links {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 .btn:hover {
