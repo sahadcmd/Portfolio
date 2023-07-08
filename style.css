@@ -55,7 +55,7 @@ body {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff4545;
+    background: #ff004f;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -89,7 +89,7 @@ body {
 }
 
 #main h1 span {
-    color: #ff4545;
+    color: #ff004f;
 }
 
 #main h2 {
@@ -164,7 +164,7 @@ p.tab-links {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff4545;
+    background: #ff004f;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -186,10 +186,99 @@ p.tab-links {
 }
 
 .tab-contents ul li span {
-    color: #b24949;
+    color: #d20043;
     font-size: 15px;
 }
 
 .tab-contents.active-tab {
     display: block;
+}
+
+
+/* ---------------------------------------portfolio------------------------------ */
+
+#portfolio {
+    padding: 50px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    transition: height 0.9s;
+}
+
+.layer h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #ff004f;
 }
