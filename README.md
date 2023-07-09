@@ -16,6 +16,9 @@ This website gives a seamless accessibility experience across various devices, f
     <img src="./Images/Screenshot/Screenshot1.png">
 </div>
 
+<br>
+<br>
+
 <div align="center">
     <img src="./Images/Screenshot/Screenshot2.png">
 </div>
