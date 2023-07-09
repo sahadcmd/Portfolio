@@ -379,7 +379,7 @@ form .btn2 {
     display: none;
 }
 
-@media (min-width:481) and (max-width:820px) {
+@media screen and (max-width:820px) {
 
     #header .bx {
         display: block;
@@ -460,6 +460,10 @@ form .btn2 {
         flex-direction: column;
     }
 
+    .work {
+        width: 70%;
+    }
+
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
@@ -493,6 +497,10 @@ form .btn2 {
 
     .about-col-2 > p {
         font-size: 14px;
+    }
+
+    .work {
+        width: 100%;
     }
 
     .tab-links {
