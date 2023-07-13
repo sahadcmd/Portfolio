@@ -479,8 +479,13 @@ form .btn2 {
         padding: 10px 30px;
     }
 
+    #main {
+        background-position: top 30% right 30%;
+    }
+
     #main h1 {
         font-size: 30px;
+        margin-top: 150px;
     }
 
     #main h2 {
