@@ -492,6 +492,10 @@ form .btn2 {
         font-size: 20px;
     }
 
+    .social-icons.bg-icons a {
+        font-size: 23px;
+    }
+
     .about-col-1 img {
         width: 250px;
     }
