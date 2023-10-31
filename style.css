@@ -253,17 +253,19 @@ p.tab-links {
     margin-bottom: 20px;
 }
 
-.layer a {
+.layer-btn a {
     margin-top: 20px;
     color: #ff004f;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 60px;
     background: #fff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
+    padding: 15px;
+    margin-left: 10px;
 }
 
 .work:hover img {
