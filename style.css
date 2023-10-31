@@ -253,8 +253,12 @@ p.tab-links {
     margin-bottom: 20px;
 }
 
-.layer-btn a {
+.layer-btn {
     margin-top: 20px;
+    display: block;
+}
+
+.work .layer-btn a {
     color: #ff004f;
     text-decoration: none;
     font-size: 20px;
