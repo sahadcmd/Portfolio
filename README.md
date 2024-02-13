@@ -1,5 +1,5 @@
 <div align = "center">
-    <img src="./Images/favicon.png" alt="Logo" width="100px">
+    <img src="./Images/favicon.png" alt="Logo" width="80px">
 </div>
 
 <h1 align = "center"><b>Personal Portfolio</b></h1>
