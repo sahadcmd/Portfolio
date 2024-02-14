@@ -26,7 +26,7 @@ This website gives a seamless accessibility experience across various devices, f
 * `jQuery`
 * `Bootstrap`
 
-## Preview 
+## Preview 📷
 
 <div align="center">
     <img src="./Images/Screenshot/Screenshot1.png">
