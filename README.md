@@ -10,6 +10,8 @@
     <a href="https://github.com/sahadcmd/Portfolio/issues" target="_blank">Report Bug</a>
 </p>
 
+## About this project 🚀
+
 Experience the full range of my skills, explore my diverse portfolio of projects, and delve deeper into my professional journey through a captivating personal website that offers an immersive glimpse into who I am and what I bring to the table.
 
 This website gives a seamless accessibility experience across various devices, from mobile phones to tablets, as it effortlessly adapts to different screen sizes.
@@ -24,7 +26,7 @@ This website gives a seamless accessibility experience across various devices, f
 * `jQuery`
 * `Bootstrap`
 
-## Preview
+## Preview 
 
 <div align="center">
     <img src="./Images/Screenshot/Screenshot1.png">
