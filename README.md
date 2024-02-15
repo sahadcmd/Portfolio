@@ -50,5 +50,5 @@ This website gives a seamless accessibility experience across various devices, f
 <h5 align="center">Connect with me!</h5>
 
 <p align="center">
-    <a href="https://www.linkedin.com/in/sahadmahaboobp" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://www.linkedin.com/in/sahadmahaboobp" target="_blank">LinkedIn</a>
 </p>
