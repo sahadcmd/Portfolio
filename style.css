@@ -292,7 +292,7 @@ p.tab-links {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #32A873;
+    border: 1px solid #ff004f;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -301,7 +301,7 @@ p.tab-links {
 }
 
 .btn:hover {
-    background: #32A873;
+    background: #ff004f;
 }
 
 /* ------------------------------Contact-part---------------------------- */
@@ -350,7 +350,7 @@ p.tab-links {
 
 .btn.btn2 {
     display: inline-block;
-    background-color: #32A873;
+    background-color: #ff004f;
 }
 
 .contact-right form {
