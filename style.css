@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
 }
 
@@ -74,7 +74,7 @@ html {
 /* ---------------Main---part-------------- */
 
 #main {
-    background-image: url("./Images/Bg-Image.png");
+    background-image: url("./Images/Bg.jpg");
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -82,23 +82,31 @@ html {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 100px;
   }
 
 #main h1 {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1.3;
     padding-bottom: 15px;
+    font-weight: 400;
+    color: #BEBEBE;
 }
 
 #main h1 span {
-    color: #ff004f;
+    color: #32A873;
 }
 
-#main h2 {
-    font-size: 30px;
+#main p {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #BEBEBE;
+    max-width: 60%;
+    text-align: center;
 }
+
 
 /* ---------------------About-Me-------------------- */
 
@@ -190,7 +198,7 @@ p.tab-links {
 }
 
 .tab-contents ul li span {
-    color: #d20043;
+    color: #ff004f;
     font-size: 15px;
 }
 
@@ -284,7 +292,7 @@ p.tab-links {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #32A873;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -293,7 +301,7 @@ p.tab-links {
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #32A873;
 }
 
 /* ------------------------------Contact-part---------------------------- */
@@ -336,13 +344,13 @@ p.tab-links {
 }
 
 .social-icons a:hover {
-    color: #ff004f;
+    color: #32A873;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background-color: #ff004f;
+    background-color: #32A873;
 }
 
 .contact-right form {
@@ -397,7 +405,7 @@ form .btn2 {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        background: #ff004f;
+        background: #32A873;
         position: fixed;
         top: 0;
         right: -300px;
@@ -426,11 +434,15 @@ form .btn2 {
     #main {
         height: 70vh;
         padding: 0 40px;
-        background-position: top 30% right 40%;
+        background-size: cover;
     }
 
     #main h1 {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    #main p {
+        max-width: 80%;
     }
 
     .container {
@@ -486,20 +498,20 @@ form .btn2 {
     }
 
     #main {
-        background-position: top 30% right 30%;
+        background-size: cover;
     }
 
     #main h1 {
         font-size: 30px;
-        margin-top: 150px;
     }
 
-    #main h2 {
-        font-size: 20px;
+    #main p {
+        max-width: 100%;
+        font-size: 14px;
     }
 
     .social-icons.bg-icons a {
-        font-size: 23px;
+        font-size: 24px;
     }
 
     .about-col-1 img {
