@@ -153,7 +153,8 @@ html {
 
 .about-col-2 p {
     line-height: 1.5;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .tab-titles {
@@ -446,7 +447,7 @@ form .btn2 {
     }
 
     .container {
-        padding: 10px 40px;
+        padding: 0px 40px;
     }
 
     .about-col-1, .about-col-2 {
@@ -519,7 +520,7 @@ form .btn2 {
     }
 
     .sub-title {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .about-col-2 > p {
@@ -536,7 +537,7 @@ form .btn2 {
     }
 
     #portfolio {
-        padding: 30px 0;
+        padding: 10px 0;
     }
 
     .layer {
