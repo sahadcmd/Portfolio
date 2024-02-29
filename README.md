@@ -19,6 +19,7 @@ This website gives a seamless accessibility experience across various devices, f
 
 <br>
 
+
 ## Technologies 🛠️
 
 * `HTML`
