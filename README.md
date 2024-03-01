@@ -35,7 +35,7 @@ This website gives a seamless accessibility experience across various devices, f
 <br>
 
 <div align="center">
-    <img src="./Images/Screenshot/Screenshot2.png">
+    <img src="./Images/portfolio.png">
 </div>
 
 <hr>
