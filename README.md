@@ -47,7 +47,7 @@ This website gives a seamless accessibility experience across various devices, f
 </div>
 
 <hr>
-<h5 align="center">Connect with me!</h5>
+<h5 align="center">Connect with me!</h5> 
 
 <p align="center">
     <a href="https://www.linkedin.com/in/sahadmahaboobp" target="_blank">LinkedIn</a>
