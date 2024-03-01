@@ -35,6 +35,10 @@ This website gives a seamless accessibility experience across various devices, f
 <br>
 
 <div align="center">
+    <img src="./Images/Screenshot/Screenshot2.png">
+</div>
+
+<div align="center">
     <img src="./Images/portfolio.png">
 </div>
 
