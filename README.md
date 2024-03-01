@@ -39,7 +39,6 @@ This website gives a seamless accessibility experience across various devices, f
 </div>
 
 <br>
-<br>
 
 <div align="center">
     <img src="./Images/portfolio.png">
