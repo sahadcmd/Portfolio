@@ -29,7 +29,7 @@ This website gives a seamless accessibility experience across various devices, f
 ## How it looks 📷
 
 <div align="center">
-    <img src="./Images/Screenshot/Screenshot1.png">
+    <img src="./Images/Screenshot/Screenshot11.jpeg">
 </div>
 
 <br>
