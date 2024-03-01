@@ -38,10 +38,6 @@ This website gives a seamless accessibility experience across various devices, f
     <img src="./Images/Screenshot/Screenshot2.png">
 </div>
 
-<div align="center">
-    <img src="./Images/portfolio.png">
-</div>
-
 <hr>
 <h5 align="center">Connect with me!</h5> 
 
