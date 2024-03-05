@@ -18,7 +18,7 @@ Experience the full range of my skills, explore my diverse portfolio of projects
 This website gives a seamless accessibility experience across various devices, from mobile phones to tablets, as it effortlessly adapts to different screen sizes.
 
 <br>
-## Technologies 🛠️
+## Technologies 🛠️ 
 
 * `HTML`
 * `CSS`
