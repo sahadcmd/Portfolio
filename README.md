@@ -1,7 +1,7 @@
 <div align = "center">
     <img src="./Images/favicon.png" alt="Logo" width="60px"> 
 </div>
-
+ 
 <h1 align = "center"><b>Personal Portfolio</b></h1> 
 
 <p align="center"> 
