@@ -2,7 +2,7 @@
     <img src="./Images/favicon.png" alt="Logo" width="60px"> 
 </div>
  
-<h1 align = "center"><b>Personal Portfolio</b></h1> 
+<h1 align = "center"><b>Personal Portfolio</b></h1>   
 
 <p align="center"> 
     <a href="https://sahadcmd.github.io/Portfolio/" target="_blank">Visit Website!</a>
