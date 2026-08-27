@@ -6,7 +6,8 @@
 }
 
 body {
-    background: #1d1d1d;
+    background: url("./Images/Bg.jpg") no-repeat center center fixed;
+    background-size: cover;
     color: #fff;
 }
 
@@ -21,7 +22,7 @@ html {
     align-items: center;
     justify-content: space-between;
     padding: 20px 60px;
-    background: #080808;
+    background: rgba(8, 8, 8, 0.7);
     box-shadow: 0 5px 15px rgba(92, 92, 92, 0.115);
     z-index: 999;
     position: sticky;
@@ -59,7 +60,7 @@ html {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #32A873;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -76,6 +77,7 @@ html {
 #main {
     background-image: url("./Images/Bg.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 90vh;
     width: 100%;
     background-position: center;
@@ -116,6 +118,7 @@ html {
 #about {
     padding: 80px 0;
     color: #ababab;
+    background: rgba(0, 0, 0, 0.55);
 }
 
 .row {
@@ -125,22 +128,25 @@ html {
 }
 
 .about-col-1 {
-    flex-basis: 35%;
-    border: 1px solid #ababab;
-    border-radius: 15px;
+    flex-basis: 25%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 10px;
 }
 
 .about-col-1 img {
-    border-radius: 15px;
-    width: 230px;
-    margin: 150px 100px;
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 20%;
+    border-radius: 50%;
+    border: 3px solid #32A873;
 }
 
 .about-col-2 {
-    flex-basis: 60%;
+    flex-basis: 68%;
 }
 
 .sub-title {
@@ -176,7 +182,7 @@ p.tab-links {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #32A873;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -198,7 +204,7 @@ p.tab-links {
 }
 
 .tab-contents ul li span {
-    color: #ff004f;
+    color: #32A873;
     font-size: 15px;
 }
 
@@ -211,6 +217,7 @@ p.tab-links {
 
 #portfolio {
     padding: 50px 0;
+    background: rgba(0, 0, 0, 0.55);
 }
 
 .work-list {
@@ -239,7 +246,7 @@ p.tab-links {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #32A873);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -267,7 +274,7 @@ p.tab-links {
 }
 
 .work .layer-btn a {
-    color: #ff004f;
+    color: #32A873;
     text-decoration: none;
     font-size: 20px;
     line-height: 60px;
@@ -292,7 +299,7 @@ p.tab-links {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #32A873;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -301,10 +308,14 @@ p.tab-links {
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #32A873;
 }
 
 /* ------------------------------Contact-part---------------------------- */
+
+#contact {
+    background: rgba(0, 0, 0, 0.55);
+}
 
 .contact-left {
     flex-basis: 35%;
@@ -326,7 +337,7 @@ p.tab-links {
 
 .contact-left p i,
 .contact-left > a i {
-    color: #ff004f;
+    color: #32A873;
     font-size: 20px;
 }
 
@@ -350,7 +361,7 @@ p.tab-links {
 
 .btn.btn2 {
     display: inline-block;
-    background-color: #ff004f;
+    background-color: #32A873;
 }
 
 .contact-right form {
@@ -361,7 +372,7 @@ form input, form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #303030;
+    background: rgba(48, 48, 48, 0.7);
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -380,7 +391,7 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background: #262626;
+    background: rgba(0, 0, 0, 0.4);
     font-weight: 300;
     margin-top: 20px;
     color: #ababab;
@@ -456,11 +467,11 @@ form .btn2 {
     .about-col-1 {
         border: 0;
         margin-bottom: 40px;
+        justify-content: center;
     }
 
     .about-col-1 img {
-        width: 350px;
-        margin: 0px 0px;
+        max-width: 200px;
     }
 
     .about-col-2 > p {
@@ -503,6 +514,7 @@ form .btn2 {
 
     #main h1 {
         font-size: 30px;
+        text-align: center;
     }
 
     #main p {
@@ -515,7 +527,7 @@ form .btn2 {
     }
 
     .about-col-1 img {
-        width: 250px;
+        max-width: 160px;
     }
 
     .sub-title {
