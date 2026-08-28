@@ -406,6 +406,14 @@ form .btn2 {
 
 @media screen and (max-width:820px) {
 
+    body {
+        background-attachment: scroll;
+    }
+
+    #main {
+        background-attachment: scroll;
+    }
+
     #header .bx {
         display: block;
         font-size: 25px;
@@ -501,6 +509,7 @@ form .btn2 {
 
 @media screen and (max-width:480px) {
     body {
+        background-attachment: scroll;
         overflow-x: hidden;
     }
 
