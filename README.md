@@ -13,9 +13,7 @@
   
 ## About this project 🚀 
 
-Experience the full range of my skills, explore my diverse portfolio of projects, and delve deeper into my professional journey through a captivating personal website that offers an immersive glimpse into who I am and what I bring to the table.
-
-This website gives a seamless accessibility experience across various devices, from mobile phones to tablets, as it effortlessly adapts to different screen sizes.
+A personal portfolio website showcasing my skills, projects, and professional journey. Built to be responsive and accessible across all devices and screen sizes.
 
 <br>
 
@@ -24,20 +22,6 @@ This website gives a seamless accessibility experience across various devices, f
 * `HTML`
 * `CSS`
 * `JavaScript`
-* `jQuery`
-* `Bootstrap`
-
-## How it looks 📷
-
-<div align="center">
-    <img src="./Images/Screenshot/Screenshot11.jpeg">
-</div>
-
-<br>
-
-<div align="center">
-    <img src="./Images/portfolio.png">
-</div>
 
 <hr>
 <h5 align="center">Connect with me!</h5> 
